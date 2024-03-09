@@ -24,30 +24,6 @@ This Move contract, named SomeContract, serves to illustrate various aspects of 
   - **Functions:**
     - `resourceFunc()`: Function demonstrating the usage of the resource.
 
-## Usage
-
-### Initialization
-
-To initialize the contract:
-
-```cadence
-self.testStruct = SomeStruct()
-
-// Area 1: structFunc
-testStruct.a = "2"
-let variableA = testStruct.a
-
-// Area 2: resourceFunc
-SomeContract.testStruct.a = "2"
-let variableA = SomeContract.testStruct.a
-
-// Area 3: questsAreFun
-questsAreFun()
-
-// Area 4: createSomeResource
-createSomeResource()
-```
-
 ### Areas
 
 - **Area 1:** Demonstrates accessing and modifying variables within the structFunc.
